@@ -14,7 +14,7 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<title>Личная страница</title>
+		<title>Данные о клиентах</title>
 	</head>
 	<body style="background-color:#79deff">
 		<a href="AddClient.php">Добавить клиента</a><br/>
