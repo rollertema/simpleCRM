@@ -1,0 +1,2 @@
+AddDefaultCharset off
+php_flag register_globals on
