@@ -37,26 +37,7 @@ session_start();
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<title>Страница входа</title>
-		<style type="text/css">
-			
-			.field {clear:both; text-align:right; line-height:25px;}
-			label {float:left; padding-right:10px; font-family: Verdana; font-weight: bold; color:#ffffff}
-			.main {float:left; position:absolute; left:500px; position:absolute; top:200px;}
-			.fields{-webkit-border-radius:7px; height:30px; width:200px; font-size: 18px;}
-			.log {position:relative; top:-130px; left:25px; width: 300px;}
-			.submit {
-				width:150px; 
-				height:30px;
-				-webkit-border-radius:7px; 
-				position:  relative; top: 10px; left: 150px; 
-			
-				background: -webkit-gradient(linear, left top,left bottom, from(#9cc3fe), to(#113bf1)); 
-				font-size: 18px;
-				font-weight: bold;
-				font-family: Verdana;
-				color: #ffffff;
-			} 
-		</style>
+		<link rel="stylesheet" type="text/css" href="css_style/forms.css" />
 		
 	</head>
 	<body style="background-color:#79deff">

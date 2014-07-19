@@ -17,10 +17,14 @@
 		<title>Данные о клиентах</title>
 	</head>
 	<body style="background-color:#79deff">
+		<?php
+			if ($_GET['isreg'] == 1) echo '<h4>Регистрация прошла успешно</h4>'
+		?>
 		<a href="AddClient.php">Добавить клиента</a><br/>
 		<a href="logout.php">Выйти</a>
 		<h2 align="center">Список клиентов</h2>
 		<?php
+			
 			$loginType = "login";
 			$link = mysql_connect("localhost", "testdb", "lobzikkras");
 			if ( !$link ) die ("Невозможно подключение к MySQL"); 
